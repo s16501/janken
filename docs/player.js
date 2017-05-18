@@ -16,8 +16,7 @@ const PA = 2;
    console.log(amari);
    return GU;
  }
-
- let matches = 0;
+/*;
  function action(opporment){
    matches = matches + 1;
    const remainder = matches % 2;
@@ -28,3 +27,36 @@ const PA = 2;
    }
    return CHOKI; 
  }
+*/
+
+ function action(oppornent)
+ console.log(oppornent);
+  let result = GU;
+  countup();
+  if(oppornent == "fighter::choki-lover"){
+    result = actionAgainstChokiDaisukiman();
+  } else {
+    if (oppornent == "fighter::odd-even"){
+      result = actionAgainstOmoteUra();
+    else {
+      result = actionAgainstOmoteUra2();
+    }
+  }
+  return result;
+}
+
+function actionAgainstRotation() {
+  const toReturnChoki = matches % 3 == 0
+  const toReturnPa = false;
+  let result = GU;
+   if(toReturnChoki){
+     result = CHOKI;
+   } else {
+     if(toReturnPa) {
+       result = PA;
+      } else {
+        result = GU;
+      }
+   }
+}
+]
